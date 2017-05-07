@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 26px;
+	color: white;
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png)
+}
+
+.top {
+	height: 80px;
+	border-bottom: 2px solid black;
+	background-color: grey;
+	opacity: 0.7;
+}
+
+.topbar {
+	border-bottom: 2px solid red;
+	height: 80px;
+}
+
+.name_box {
+	background-color: black;
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	float: left;
+	padding: 1rem;
+}
+
+.name {
+	text-align: center;
+}
+
+.navigation {
+	position: absolute;
+	width: 66%;
+	right: 0px;
+	text-align: center;
+	
+}
+
+.nav_item_1 {
+	position: absolute;
+	left: 20%;
+	float: left;
+	text-align: center;
+	margin-top: ;
+	padding: 20px;
+}
+
+.nav_item_2 {
+	position: absolute;
+	left: 40%;
+	float: left;
+	text-align: center;
+	margin-top: ;
+	padding: 20px;
+}
+
+.nav_item_3 {
+	position: absolute;
+	left: 60%;
+	float: left;
+	text-align: center;
+	margin-top: ;
+	padding: 20px;
+}
+
+.about {
+	clear: both;
+	padding: 20px;
+	width: 55%;
+	float: left;
+	border: 2px solid white;
+	margin: 20px;
+}
+
+.about_me_header {
+	border-bottom: 3px solid red;
+}
+
+.about_picture {
+	border: 2px none pink;
+	float: left;
+	width: 360px;
+	margin: 10px;
+}
+
+.piano_rei {
+	width: inherit;
+}
+
+.contact {
+	float: right;
+	width: 35%;
+	border: 2px solid white;
+	text-align: center;
+	margin: 20px ;
+}
+
+.contact_header {
+	border-bottom: 2px solid red;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+	border-top: 2px solid red;
+	padding: 1rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+/*For contact.html*/
+
+
+#name_input {
+	width: 100%;
+}
+
+#e-mail_input {
+	width: 100%;
+}
+
+#message_input {
+	width: 100%;
+	height: 200px;
+}
+
+/*For portfolio.html*/
+
+.fe3_box {
+}
+
+.fe3 {
+	border: 2px solid pink;
+	float: left;
+	width: 240px;
+	margin: 10px;
+}
+
+.fe4 {
+	border: 2px solid pink;
+	float: left;
+	width: 240px;
+	margin: 10px;
+}
+
+.fe6 {
+	border: 2px solid pink;
+	float: left;
+	width: 240px;
+	margin: 10px;
+}
+
+@media screen max-width: 980px;
