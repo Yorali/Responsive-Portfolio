@@ -158,4 +158,18 @@ body {
 	margin: 10px;
 }
 
-@media screen max-width: 980px;
+@media screen and (max-width: 980px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.top {
+		position: static;
+	}
+}
