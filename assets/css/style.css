@@ -46,7 +46,6 @@ body {
 	left: 20%;
 	float: left;
 	text-align: center;
-	margin-top: ;
 	padding: 20px;
 }
 
@@ -55,7 +54,6 @@ body {
 	left: 40%;
 	float: left;
 	text-align: center;
-	margin-top: ;
 	padding: 20px;
 }
 
@@ -64,7 +62,6 @@ body {
 	left: 60%;
 	float: left;
 	text-align: center;
-	margin-top: ;
 	padding: 20px;
 }
 
@@ -169,7 +166,45 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+	.wrapper {
+		width: 100%;
+	}
+
 	.top {
 		position: static;
+	}
+
+	.name_box {
+		display: none;
+		float: none;
+		width: 0%;
+	}
+
+	.navigation {
+		width: 100%;
+	}
+
+	.nav_item_1 .nav_item_2 .nav_item_3 {
+		float: none;
+		width: 33%;
+	}
+
+	.about {
+		float: none;
+		width: 90%;
+	}
+
+	.about_picture {
+		width: 90%;
+	}
+
+	.piano_rei {
+		width: inherit;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.contact {
+		float: none;
 	}
 }
