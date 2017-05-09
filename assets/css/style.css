@@ -110,7 +110,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	position: absolute;
+	position: relative;
 }
 
 /*For contact.html*/
@@ -132,6 +132,7 @@ body {
 /*For portfolio.html*/
 
 .fe3_box {
+	border: 5px solid green;
 }
 
 .fe3 {
@@ -148,7 +149,7 @@ body {
 	margin: 10px;
 }
 
-.fe6 {
+.fe5 {
 	border: 2px solid pink;
 	float: left;
 	width: 240px;
@@ -184,9 +185,10 @@ body {
 		width: 100%;
 	}
 
-	.nav_item_1 .nav_item_2 .nav_item_3 {
+	.nav_item_1, .nav_item_2, .nav_item_3 {
 		float: none;
-		width: 33%;
+		width: 25%;
+		padding: 5 5 0 5px;
 	}
 
 	.about {
@@ -194,8 +196,13 @@ body {
 		width: 90%;
 	}
 
+	.about_me {
+		
+	}
+
 	.about_picture {
 		width: 90%;
+		float: left;
 	}
 
 	.piano_rei {
@@ -204,7 +211,36 @@ body {
 		margin: 0 auto;
 	}
 
-	.contact {
-		float: none;
+	.bio {
+		clear: both;
 	}
+
+	.contact {
+		clear: both;
+		float: none;
+		width: 90%;
+	}
+
+	/*For Portfolio.html*/
+
+	.fe3_box, .fe4_box, .fe5_box {
+		width: inherit;
+		float: left;
+		clear: both;
+	}
+
+	.fe3, .fe4, .fe5 {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+
+/*	.cocoa, .calling, .cascade{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+
+	}*/
+
 }
