@@ -131,9 +131,6 @@ body {
 
 /*For portfolio.html*/
 
-.fe3_box {
-	border: 5px solid green;
-}
 
 .fe3 {
 	border: 2px solid pink;
@@ -157,13 +154,72 @@ body {
 }
 
 @media screen and (max-width: 980px) {
-	
+	.wrapper {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 768px) {
 	.wrapper {
-		width: 600px;
+		width: 100%;
 	}
+
+	.top {
+		position: static;
+	}
+
+	.nav_item_1, .nav_item_2, .nav_item_3 {
+		float: none;
+		width: 25%;
+		padding: 5 5 0 5px;
+	}
+
+	.linelane {
+		height: 85%;
+	}
+
+	.about {
+		float: none;
+		width: 90%;
+		height: 100%;
+	}
+
+	.about_me {
+		
+	}
+
+	.about_picture {
+		width: 70%;
+		float: left;
+	}
+
+	.piano_rei {
+		width: inherit;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.contact {
+		clear: both;
+		float: none;
+		width: 90%;
+	}
+
+	/*For Portfolio.html*/
+
+	.fe3_box, .fe4_box, .fe5_box {
+		width: 75%;
+		float: left;
+		clear: both;
+	}
+
+	.fe3, .fe4, .fe5 {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -191,9 +247,14 @@ body {
 		padding: 5 5 0 5px;
 	}
 
+	.linelane {
+		height: 85%;
+	}
+
 	.about {
 		float: none;
 		width: 90%;
+		height: 100%;
 	}
 
 	.about_me {
