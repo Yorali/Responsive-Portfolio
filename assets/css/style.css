@@ -72,6 +72,7 @@ body {
 	float: left;
 	border: 2px solid white;
 	margin: 20px;
+	overflow: auto;
 }
 
 .about_me_header {
@@ -110,7 +111,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	position: relative;
+	position: absolute;
 }
 
 /*For contact.html*/
@@ -157,6 +158,35 @@ body {
 	.wrapper {
 		width: 100%;
 	}
+
+	/*For Portfolio.html*/
+
+	.fe3_box, .fe4_box, .fe5_box {
+		width: 75%;
+		float: none;
+		clear: none;
+		display: inline;
+	}
+
+	.fe3, .fe4, .fe5 {
+	border: 2px solid pink;
+	float: none;
+	width: 240px;
+	margin: 10px;
+	}
+
+	.footer {
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+	border-top: 2px solid red;
+	padding: 1rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -209,16 +239,29 @@ body {
 
 	.fe3_box, .fe4_box, .fe5_box {
 		width: 75%;
-		float: left;
-		clear: both;
+		float: none;
+		clear: none;
+		display: inline;
 	}
 
 	.fe3, .fe4, .fe5 {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
+	border: 2px solid pink;
+	float: none;
+	width: 240px;
+	margin: 10px;
 	}
 
+	.footer {
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+	border-top: 2px solid red;
+	padding: 1rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	}
 
 }
 
@@ -282,12 +325,25 @@ body {
 		width: 90%;
 	}
 
+	.footer {
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+	border-top: 2px solid red;
+	padding: 1rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	}
+
 	/*For Portfolio.html*/
 
 	.fe3_box, .fe4_box, .fe5_box {
-		width: inherit;
-		float: left;
-		clear: both;
+	float: left;
+	width: 240px;
+	margin: 10px;
+	clear: both;
 	}
 
 	.fe3, .fe4, .fe5 {
